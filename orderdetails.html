@@ -1,0 +1,159 @@
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="icon" href="image/logo.png">
+  <title>Pizza Hunt now starting @ rs.99</title>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+  <script src="cart.js"></script>
+  <link rel="stylesheet" type="text/css" href="stylesheet\style1.css">
+</head>
+
+<body>
+    <header>
+
+    <div class="container-fluid headerContainer">
+        <a href="index.html"><img src="image/logo.png" alt="LOGO" class="logo"></a>
+        <nav class="navbar">
+        <div class="container-fluid singup-button">
+            <ul class="nav navbar-nav leftNav">
+            <a href="cart.html"><img src="image/cart.png"></a>
+            <a href="index.html"><img src="image/vector.png"></a>
+            <li>
+                <a href="#signupModal" data-toggle="modal">
+                <div class="btn btn-default button singup-button" style="background-color: rgb(29, 154, 9, 1); color: #ffffff;" >
+                    SIGN UP
+                </div></a>
+            </li>
+            <li>
+                <a href="#loginModal" data-toggle="modal">
+                <div class="btn btn-default button singup-button" style="background-color: rgb(29, 154, 9, 1); color: #ffffff;" >
+                    LOG IN
+                </div></a>
+            </li>            
+            </ul>
+        </div>    
+        </nav>
+    </div>
+
+
+    <div id="signupModal" class="modal fade">
+        <div class="modal-dialog modal-login">
+        <div class="modal-content">
+            <form action="" method="post">
+            <div class="modal-header">				
+                <h4 class="modal-title">Sign up</h4>
+                <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+            </div>
+            <div class="modal-body">				
+                <div class="form-group">
+                <label>Email/Phone</label>
+                <input type="text" class="form-control" placeholder="Enter your Email/Phone number" required="required">
+                </div>
+                <div class="form-group">
+                <div class="clearfix">
+                    <label>Password</label>
+                </div>
+                <input type="password" class="form-control" placeholder="Enter a password" required="required">
+                </div>
+                <div class="form-group">
+                <div class="clearfix">
+                    <label> Confirm Password</label>
+                </div>
+                <input type="password" class="form-control" placeholder="Confirm the password" required="required">
+                </div>
+            </div>
+            <div class="modal-footer justify-content-between">
+                <label class="form-check-label"><input type="checkbox"> Remember me</label>
+                <button type="button" class="btn btn-primary" data-dismiss="modal" aria-hidden="true">Cancel</button>
+                <input type="submit" class="btn btn-primary" value="Login">              
+            </div>
+            </form>
+        </div>
+        </div>
+    </div>
+
+
+    <div id="loginModal" class="modal fade">
+        <div class="modal-dialog modal-login">
+        <div class="modal-content">
+            <form action="" method="post">
+            <div class="modal-header">				
+                <h4 class="modal-title">Login</h4>
+                <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+            </div>
+            <div class="modal-body">				
+                <div class="form-group">
+                <label>Email/Phone</label>
+                <input type="text" class="form-control" placeholder="Enter your Email/Phone number" required="required">
+                </div>
+                <div class="form-group">
+                <div class="clearfix">
+                    <label>Password</label>
+                    <a href="#" class="float-right text-muted"><small>Forgot?</small></a>
+                </div>
+                
+                <input type="password" class="form-control" placeholder="Enter the password" required="required">
+                </div>
+            </div>
+            <div class="modal-footer justify-content-between">
+                <label class="form-check-label"><input type="checkbox"> Remember me</label>
+                <button type="button" class="btn btn-primary" data-dismiss="modal" aria-hidden="true">Cancel</button>
+                <input type="submit" class="btn btn-primary" value="Login">
+            </div>
+            </form>
+        </div>
+        </div>
+    </div>
+
+
+    </header>
+
+    <div class="container" style="background-color: #ffffff; padding-left: 60px;">
+        <div class="row">
+             
+        <div class="row" >
+            <div class="col-lg-2">
+                <img src="image/i13.png" style="height: 250px;" alt="">
+            </div>
+            <div class="col-lg-6" style="padding-left: 100px;">
+                <h1><b>Double Panner Supreme</b></h1>
+                <p>Spiced Panner, Herbed Onion & Green Capsicum, Red Paprika</p>
+                
+            </div>
+            <div class="col-lg-2">
+                <h3>Qty: 2</h3>
+            </div>
+            <div class="col-lg-2">
+                <h2>&#8377;566</h2>
+            </div>
+        </div>
+        <div class="row" style="margin-top: 25px;">
+            <div class="col-lg-2">
+                <img src="image/i18.png" style="height: 250px;" alt="">
+            </div>
+            <div class="col-lg-6" style="padding-left: 100px;">
+                <h1><b>Double Panner Supreme</b></h1>
+                <p>Spiced Panner, Herbed Onion & Green Capsicum, Red Paprika</p>
+                
+            </div>
+            <div class="col-lg-2">
+                <h3>Qty: 1</h3>
+            </div>
+            <div class="col-lg-2">                
+                <h2>&#8377;649</h2><hr>
+                <h2>Total : </h2>
+                <h2>&#8377;1,761</h2>
+            </div>
+        </div>
+
+
+        </div>
+
+    </div><hr>
+</body>
+</html>
